@@ -1,9 +1,8 @@
 # Flep! PhoneGap client
 
-This is an example PhoneGap app, using plain old Javascript to talk to a remote REST API.
+This is an example PhoneGap app, using plain old Javascript to talk to a remote REST API. Install it on your Android phone from the [Play store](https://play.google.com/store/apps/details?id=com.arrayofbytes.flep&hl=en)
 
-To run locally in the browser; try `phonegap serve`; and to build the release package; try `phonegap build android -release`
+* `npm install` to install phonegap
+* `phonegap serve` and visit the given url to run locally in the browser.
 
-To sign and zipalign; have a read of [this stack overflow answer](http://stackoverflow.com/questions/26449512/how-to-create-signed-apk-file-using-cordova-command-line-interface)
-
-And of course - [download it from the Play store!](https://play.google.com/store/apps/details?id=com.arrayofbytes.flep&hl=en)
+To build the release package; try `phonegap build android -release` and have a read of [this stack overflow answer](http://stackoverflow.com/questions/26449512/how-to-create-signed-apk-file-using-cordova-command-line-interface) to sign and zipalign the package for release.
